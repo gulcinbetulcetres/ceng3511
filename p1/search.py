@@ -15,7 +15,7 @@ MainDictionary = {}
 
 
 def ReadFile(FileName):
-    f = open(DosyaAdi, "r")
+    f = open(FileName, "r")
 
     f1 = f.readlines()
     counter = 0
