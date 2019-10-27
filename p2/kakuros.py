@@ -1,3 +1,8 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from ortools.sat.python import cp_model
+
 file = open("kakuro_input.txt", 'r')
 lines = file.readlines()
 dict = []
